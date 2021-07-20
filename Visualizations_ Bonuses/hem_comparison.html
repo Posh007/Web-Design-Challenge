@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Web Design Challenge</title>
+    <title>Web Challenge</title>
 
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -37,7 +36,7 @@
               Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="./temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="./temp.html">Temperature</a>
               <a class="dropdown-item" href="./humidity.html">Humidity</a>
               <a class="dropdown-item" href="./clouds.html">Cloudiness</a>
               <a class="dropdown-item" href="./wind.html">Wind Speed</a>
@@ -49,6 +48,10 @@
 					<li class="nav-item active">
             <a class="nav-link" href="./comparison.html">Comparison <span class="sr-only">(current)</span></a>
 					</li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="./hem_comparison.html">Hemispheres <span class="sr-only">(current)</span></a>
+					</li>
 					
           <li class="nav-item">
             <a class="nav-link" href="./data.html">Data</a>
@@ -58,48 +61,80 @@
                     
       </div>
     </nav>
-    
+  
 <!-- this section creates the comparison plots on the right --> 
 
     <div class="col-12">
       <div class="compplot-content">
-        <h2 class="plot-header">Comparison: Latitude vs X</h2>
+        <h2 class="plot-header">Comparison: X vs Latitude Regression</h2>
         <hr>
 
-        <p> Click any plot to get an in-depth analysis</p>
+        <p> Comparison of the Northern (N) Hemisphere vs. Latitude Linear Regression and Southern Hemispheres (S) vs. Latitude Linear Regression</p>
 
         <div class="container">
-
+          
           <div class="row">
 
-            <div class="col-lg-6 col-md-12">
-              <div class="comp-title">vs. Max Temperature</div>
-              <a href="./temp.html">
-                <img src="./Resources/assets/Fig1.png"  alt="Latitude vs. Max Temperature" id="comp-image" >
+            <div class="col-lg-3 col-md-6">
+              <div class="comp-title"> N. Max Temperature vs.</div>
+              <a href="./Resources/assets/Fig5.png" alt="Fig5" width="500" height="600">
+              <img src="./Resources/assets/Fig5.png" alt="Latitude vs. Humidity" id="comp-image">
+
               </a>
             </div>
-            
-        
-            <div class="col-lg-6 col-md-12">
-              <div class="comp-title">vs. Humidity</div>
-              <a href="./humidity.html">
-              <img src="./Resources/assets/Fig2.png" alt="Latitude vs. Humidity" id="comp-image">
+              
+            <div class="col-lg-3 col-md-6">
+              <div class="comp-title">N. Humidity vs.</div>
+              <a href="./Resources/assets/Fig6.png">
+              <img src="./Resources/assets/Fig6.png" alt="Latitude vs. Humidity" id="comp-image">
               </a>
             </div>
         
-            <div class="col-lg-6 col-md-12">
-              <div class="comp-title">vs. Cloudiness</div>
-              <a href="./clouds.html">
-              <img src="./Resources/assets/Fig3.png" alt="Latitude vs. Cloudiness" id="comp-image">
+            <div class="col-lg-3 col-md-6">
+              <div class="comp-title">N. Cloudiness vs.</div>
+              <a href="./Resources/assets/Fig7.png.html">
+              <img src="./Resources/assets/Fig7.png" alt="Latitude vs. Cloudiness" id="comp-image">
               </a>
             </div>
 
-            <div class="col-lg-6 col-md-12">
-              <div class="comp-title">vs. Wind Speed</div>
-              <a href="./wind.html">
-              <img src="./Resources/assets/Fig4.png" alt="Latitude vs. Wind Speed" id="comp-image">
-              </a>
+            <div class="col-lg-3 col-md-6">
+              <div class="comp-title">N. Wind Speed vs.</div>
+              <a href="./Resources/assets/Fig8.png">
+              <img src="./Resources/assets/Fig8.png" alt="Latitude vs. Wind Speed" id="comp-image">
             </div>
+
+          </div>
+
+          <div class="row">
+          
+            <div class="col-lg-3 col-md-6">
+              <div class="comp-title">S. Max Temperature vs.</div>
+              <a href="./Resources/assets/Fig9.png">
+              <img src="./Resources/assets/Fig9.png"  alt="Latitude vs. Temperature" id="comp-image" >
+               </a>
+              </div>
+                       
+            <div class="col-lg-3 col-md-6">
+                <div class="comp-title">S. Humidity vs.</div>
+                <a href="./Resources/assets/Fig10.png">
+                <img src="./Resources/assets/Fig10.png" alt="Latitude vs. Humidity" id="comp-image">
+                </a>
+              </div>
+          
+             <div class="col-lg-3 col-md-6">
+                <div class="comp-title">S.Cloudiness vs.</div>
+                <a href="./Resources/assets/Fig11.png">
+                <img src="./Resources/assets/Fig11.png" alt="Latitude vs. Cloudiness" id="comp-image">
+                </a>
+              </div>
+  
+            <div class="col-lg-3 col-md-6">
+                <div class="comp-title">S. Wind Speed vs.</div>
+                <a href="./Resources/assets/Fig12.png">
+                <img src="./Resources/assets/Fig12.png" alt="Latitude vs. Wind Speed" id="comp-image">
+              </a>
+            </div></script>
+          
           </div>  
       </div>
       

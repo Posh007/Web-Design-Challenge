@@ -59,10 +59,13 @@ body{
       width: 90%;
       height: 90%;
     }
+
   .table1{
       text-align: center;
- }  
-    
+      background-color: white;
+  }
+     
+
   .table-content {
       margin: 30px 10px 10px 10px;
       border: 10px 10px 10px 10px;
