@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Web Design Challenge</title>
+    <title>Web Challenge</title>
 
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -21,8 +20,8 @@
 
   <!-- Define the Navigation Bar -->  
   
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand d-inline p-2 ml-5 bg-info text-white mb-0" href="./index.html">Latitude</a>
+     <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand d-inline p-2 ml-5 mb-0 bc-yl" href="./index.html">Latitude</a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,23 +32,28 @@
         <!--<ul class="navbar-nav mr-auto"> -->
 				<ul class=" nav navbar-nav ml-auto">  
         	<li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Plots
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="./temp.html">Max Temperature</a>
-              <a class="dropdown-item" href="./humidity.html">Humidity</a>
-              <a class="dropdown-item" href="./clouds.html">Cloudiness</a>
-              <a class="dropdown-item" href="./wind.html">Wind Speed</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="./index.html">Back to Home Page</a>
-            </div>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="./temp.html">Temperature</a>
+                  <a class="dropdown-item" href="./humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="./clouds.html">Cloudiness</a>
+                  <a class="dropdown-item" href="./wind.html">Wind Speed</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="./index.html">Back to Home Page</a>
+                </div>
           </li>
 					
 					<li class="nav-item active">
             <a class="nav-link" href="./comparison.html">Comparison <span class="sr-only">(current)</span></a>
 					</li>
 					
+          
+          <li class="nav-item active">
+            <a class="nav-link" href="./hem_comparison.html">Hemispheres <span class="sr-only">(current)</span></a>
+					</li>
+
           <li class="nav-item">
             <a class="nav-link" href="./data.html">Data</a>
           </li>
@@ -58,7 +62,7 @@
                     
       </div>
     </nav>
-    
+  
 <!-- this section creates the comparison plots on the right --> 
 
     <div class="col-12">
@@ -75,11 +79,10 @@
             <div class="col-lg-6 col-md-12">
               <div class="comp-title">vs. Max Temperature</div>
               <a href="./temp.html">
-                <img src="./Resources/assets/Fig1.png"  alt="Latitude vs. Max Temperature" id="comp-image" >
+                <img src="./Resources/assets/Fig1.png"  alt="Latitude vs. Temperature" id="comp-image" >
               </a>
             </div>
-            
-        
+           
             <div class="col-lg-6 col-md-12">
               <div class="comp-title">vs. Humidity</div>
               <a href="./humidity.html">
