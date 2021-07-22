@@ -1,4 +1,4 @@
-# ## Web Design Homework - Web Visualization Dashboard (Latitude)
+## Web Design Homework - Web Visualization Dashboard (Latitude)
 
 ## Background
 
@@ -23,9 +23,9 @@ The website consists of 7 pages total, including:
 
 The website was deployed to GitHub pages, link is provided with the submission.
 
-### Bonuses
+### Bonus
 
 * Bonus assignment on a separate folder.
 * A different weather dataset was used for the bonus section! 
 * Extra color and visualizations for comparison were added.  
-* View the index.html in the  Bonuses Homework folder. 
+* View the index.html in the  Bonus Homework folder. 
