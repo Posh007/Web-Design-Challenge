@@ -8,7 +8,7 @@ Data is more powerful when we share it with others! Let's take what we've learne
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
-Create a visualization dashboard website using visualizations we've created in a past assignment, plotting [weather data](Resources/cities.csv).
+Created a visualization dashboard website using visualizations that were created in a past assignment, plotting [weather data](Resources/cities.csv).
 
 ### Website - Fulfilled Requirements
 
@@ -21,11 +21,11 @@ The website consists of 7 pages total, including:
 * A ["Comparisons" page]
 * A ["Data" page]
 
-The website was deployed to GitHub pages, link is provided with the submission.
+* The dashboard can be view [here](https://posh007.github.io/Web-Design-Challenge/Web%20Visualization/index.html)!
 
 ### Bonus
 
 * Bonus assignment on a separate folder.
 * A different weather dataset was used for the bonus section! 
 * Extra color and visualizations for comparison were added.  
-* The dashboard can be view ![here]https://github.com/Posh007/Web-Design-Challenge/blob/Main/Bonus%20Homework/index.html 
+* The dashboard can be view [here](https://posh007.github.io/Web-Design-Challenge/Bonus%20Homework/index.html)! 
