@@ -14,18 +14,18 @@ Created a visualization dashboard website using visualizations that were created
 
 The website consists of 7 pages total, including:
 
-* A [landing page](#landing-page) containing:
+* A landing page containing:
   * An explanation of the project.
   * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
-* Four [visualization pages]
-* A ["Comparisons" page]
-* A ["Data" page]
+* Four visualization pages
+* A "Comparisons" page
+* A "Data" page
 
-* The dashboard can be view [here](https://posh007.github.io/Web-Design-Challenge/Web%20Visualization/index.html)!
+* The dashboard can be viewed [here](https://posh007.github.io/Web-Design-Challenge/Web%20Visualization/index.html)!
 
 ### Bonus
 
 * Bonus assignment on a separate folder.
 * A different weather dataset was used for the bonus section! 
 * Extra color and visualizations for comparison were added.  
-* The dashboard can be view [here](https://posh007.github.io/Web-Design-Challenge/Bonus%20Homework/index.html)! 
+* The dashboard can be viewed [here](https://posh007.github.io/Web-Design-Challenge/Bonus%20Homework/index.html)! 
