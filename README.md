@@ -28,4 +28,4 @@ The website was deployed to GitHub pages, link is provided with the submission.
 * Bonus assignment on a separate folder.
 * A different weather dataset was used for the bonus section! 
 * Extra color and visualizations for comparison were added.  
-* View the index.html in the  Bonus Homework folder. 
+* The dashboard can be view ![here]https://github.com/Posh007/Web-Design-Challenge/blob/Main/Bonus%20Homework/index.html 
